@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6em;
+    text-align: center;
+    font-family: "Lucida Grande", Tahoma, Verdana, Lucida, Arial, sans-serif;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul:after {
+    content: '\20';
+    display: block;
+    clear: both;
+}
+
+a {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.mainDiv {
+    width: 990px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.nav_div {
+    margin-bottom: 8px;
+    background: url(global_bg_1.gif) repeat-x 0 -77px;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.nav_div ul {
+    float: left;
+    /*background-color: lightpink;*/
+}
+
+.nav_div li {
+    float: left;
+
+}
+
+.big li a {
+    line-height: 32px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #000;
+}
+
+.big li a:hover {
+    background-image: url(global_bg_1.gif);
+    background-position: 0 -118px;
+    color: #fff;
+}
+/*首页*/
+.big li a.hover {
+    background-image: url(global_bg_1.gif);
+    background-position: 0 -37px;
+    color: #fff;
+}
+
+.small {
+    margin: 5px 0;
+}
+/*浮动后可设大小*/
+.small a {
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 2px;
+
+}
+.small a.three{
+    width: 48px;
+}
+.small a.three:hover{
+    background: url(global_bar_icon3.gif) no-repeat;
+}
+.small a:hover {
+    background: url(global_img_1.gif) no-repeat -50px 0 #c00;
+    color: #fff;
+}
+
+.more {
+    float: right;
+}
+
+.more a:hover {
+    color: #c00;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
