@@ -103,7 +103,10 @@
     font-size: .55rem;
 }
 .buy-bd a:first-child{
-    background: url(../images/buy-bg01.png);
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    border-radius: .4rem;
+    background-color: #7B4F46;
     -webkit-background-size: 7.925rem 3.724rem;
     background-size: 7.925rem 3.724rem;
 }
@@ -112,9 +115,12 @@
     height: 2.7rem;
 }
 .buy-bd a:last-child{
-    background: url(../images/buy-bg02.png);
+    background-color: #D87A6E;
     -webkit-background-size: 7.925rem 3.724rem;
     background-size: 7.925rem 3.724rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    border-radius: .4rem;
 }
 .buy-bd a:last-child img{
     width: 2.1rem;
@@ -136,9 +142,12 @@
 .item{
     width: 8.25rem;
     height: 9.85rem;
-    background: url(../images/command-bg.png) no-repeat;
+    background-color: #fff;
     -webkit-background-size: 8.25rem 9.85rem;
     background-size: 8.25rem 9.85rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    border-radius: .4rem;
 }
 .item img{
     width: 8.25rem;
