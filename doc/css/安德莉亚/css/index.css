@@ -1,0 +1,213 @@
+/*bar*/
+.bar {
+    width: 18.75rem;
+    height: .975rem;
+    background: #fff;
+}
+.bar img{
+    width: 18rem;
+    height: .45rem;
+}
+/*search-content*/
+.search-content{
+    width: 17.25rem;
+    margin: 0 auto;
+    height: 2.5rem;
+    background: #fff;
+}
+.search-content h3{
+    font-size: .9rem  ;
+    color: #000;
+}
+.search-pos img{
+    width: .6rem;
+    height: .725rem;
+}
+.search-pos span{
+    font-size: .65rem  ;
+    margin-left: .15rem;
+}
+.search-content img:last-child{
+    width: .925rem;
+    height: .95rem;
+}
+/*main*/
+.main{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    width: 18.75rem;
+    margin: 0 auto;
+    padding-bottom: 3.4rem;
+    background: #f6f6f6;
+}
+/*banner*/
+.banner{
+    width: 18.75rem;
+}
+.banner img{
+    height: 8.15rem;
+}
+/*news*/
+.news {
+    margin-left: .775rem;
+    width: 7rem;
+    height: 1.825rem;
+}
+.news li{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.news img{
+    width: .7rem;
+    height: .6rem;
+}
+.news span{
+    font-size: .5rem;
+    color: #8C8C8C;
+}
+.banner-nav{
+    height: 3.225rem;
+}
+.banner-nav a{
+    font-size: .45rem;
+    color: #000;
+}
+.banner-nav a img{
+    width: 1.75rem;
+    height: 1.75rem;
+}
+/*buy*/
+.buy{
+    margin: .7rem;
+    height: 5.55rem;
+}
+
+.buy-bd{
+    flex-grow: 1;
+}
+.buy-bd a{
+    width: 7.925rem;
+    height: 3.725rem;
+    /*-webkit-background-size: 7.925rem 3.724rem;*/
+    /*background-size: 7.925rem 3.724rem;*/
+}
+.buy-bd a h3{
+    font-size: .7rem;
+    text-align: right;
+    color: #fff;
+    margin-left: .425rem;
+}
+.buy-bd a i{
+    font-size: .55rem;
+}
+.buy-bd a:first-child{
+    background: url(../images/buy-bg01.png);
+    -webkit-background-size: 7.925rem 3.724rem;
+    background-size: 7.925rem 3.724rem;
+}
+.buy-bd a:first-child img{
+    width: 2.125rem;
+    height: 2.7rem;
+}
+.buy-bd a:last-child{
+    background: url(../images/buy-bg02.png);
+    -webkit-background-size: 7.925rem 3.724rem;
+    background-size: 7.925rem 3.724rem;
+}
+.buy-bd a:last-child img{
+    width: 2.1rem;
+    height: 3rem;
+
+}
+/*command*/
+.command{
+    margin: 0 .7rem;
+}
+.command .hd li:first-child img {
+    width: .8rem;
+    height: .8rem;
+}
+.con{
+    flex-wrap: wrap;
+    height: 20.775rem;
+}
+.item{
+    width: 8.25rem;
+    height: 9.85rem;
+    background: url(../images/command-bg.png) no-repeat;
+    -webkit-background-size: 8.25rem 9.85rem;
+    background-size: 8.25rem 9.85rem;
+}
+.item img{
+    width: 8.25rem;
+    height: 6.5rem;
+}
+.item span{
+    display: flex;
+    align-items: center;
+    font-size: .65rem;
+    height: 1.95rem;
+    margin-left: .475rem;
+}
+.bd{
+    margin: 0 .525rem;
+}
+.bd h3{
+    font-size: .75rem;
+    color: #fb0606;
+}
+.bd img{
+    width: .6rem;
+    height: .625rem;
+}
+/*footer*/
+.footer-nav{
+    width: 18.75rem;
+    height: 2.625rem;
+}
+.footer-nav a:nth-child(1) img{
+    width: .9rem;
+    height: .9rem;
+}
+.footer-nav a:nth-child(2) img{
+    width: .825rem;
+    height: .825rem;
+}
+.footer-nav a:nth-child(3) img{
+    width: .875rem;
+    height: .875rem;
+}
+.footer-nav a:nth-child(4) img{
+    width: .85rem;
+    height: .85rem;
+}
+.footer-nav h3{
+    font-size: .5rem;
+    color: #8c8484;
+    margin-top: .125rem;
+}
+.footer-nav h3 i{
+    color: #f69736;
+}
+.footer .footer-nav a{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

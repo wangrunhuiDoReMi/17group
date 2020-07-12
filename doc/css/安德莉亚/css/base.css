@@ -1,0 +1,31 @@
+html{
+    padding: 0;
+    font-size: 5.333333vw;
+}
+html,body{overflow-x:hidden;-webkit-overflow-scrolling: touch;}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    letter-spacing: 0.075rem;
+}
+p{
+    font-synthesis: style;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+span{
+    font-family: PingFangSC-Medium, sans-serif;
+}
+h3{
+    font-family: PingFangSC-Bold, sans-serif;
+}
+i{
+    font-style: normal;
+}
