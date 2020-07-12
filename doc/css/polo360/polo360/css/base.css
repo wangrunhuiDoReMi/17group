@@ -1,0 +1,71 @@
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: top;
+}
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+p,h3{
+    line-height: 14px;
+}
+p, h3,ul,li, dl, dd, dt,label{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    float: left;
+}
+body {
+    background: url(../images/line.png) repeat-x;
+    margin: 0;
+}
+input{
+    padding: 0;
+    _padding: 0 0 0 9px;
+    margin-top: 14px;
+    width: 296px;
+    _width: 287px;
+    height: 33px;
+    background: url(../images/contact-text.png);
+    color: #d4d4d4;
+    text-indent: 9px;
+    border: none;/*添加背景时兼容*/
+    display:inline-block !important;/*支持 important 的浏览器（firefox, safari）*/
+    _display:block;
+    font: 10px "Verdana";
+    -webkit-text-size-adjust:none;
+}
+
+
+textarea {
+    display: block;/*input是内两元素改为块级*/
+    padding: 0;
+    margin: 15px 0 0 0;
+    width: 296px;
+    height: 134px;
+    border: none;
+    background: url(../images/contact-area.png);
+    font: 10px "verdana";
+    color: #d4d4d4;
+    text-indent: 9px;
+    resize: none;
+    -webkit-text-size-adjust:none;
+}
+/*清除浮动*/
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    zoom: 1;
+    height: 0;
+}
+/*ie6*/
+

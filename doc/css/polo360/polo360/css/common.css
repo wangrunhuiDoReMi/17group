@@ -1,0 +1,22 @@
+/* 通用样式 */
+.w {
+    width: 940px;
+    margin: 0 auto;
+}
+/*左右浮动*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 横栏*/
+.box{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    _margin-right: 10px;
+}
+.last{
+    margin: 0 auto;
+}

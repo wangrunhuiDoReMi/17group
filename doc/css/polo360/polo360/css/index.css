@@ -1,0 +1,178 @@
+/* header  */
+.header {
+    height: 77px;
+    padding-top: 32px;
+    padding-bottom: 47px;
+}
+.nav ul{
+    margin-top: 16px;
+}
+.header .nav ul li {
+    padding: 0 8px;
+    border-left: 1px dotted #bcbcbc;
+}
+.header li a {
+    font: bold 14px "Georgia";
+}
+.header li a:hover{
+    color: #777;
+}
+.header li p {
+    font: 11px "Tahoma";
+
+}
+.header li p i{
+    color: #b7b7b7;
+}
+/* banner */
+.banner {
+    position: relative;
+}
+.banner-nav {
+    position: absolute;
+    top: 313px;
+    left: 20px;
+}
+.banner li {
+    width: 17px;
+    height: 17px;
+    background: no-repeat url(../images/dot.png);
+    list-style: none;
+    float: left;
+    margin-right: 6px;
+}
+.banner li:hover {
+    background: url(../images/active.png) 17px 0px;
+}
+/* content */
+.content>h3 {
+    text-align: center;
+    padding: 10px 0 25px;
+    color: #000;
+}
+.con-list {
+    margin-top: 34px ;
+}
+.con-list h3{
+    font: 21px "Georgia";
+    color: #11719e;
+}
+.con-list .box p {
+    padding-bottom: 15px;
+    font: 12px "[Helvetica]";
+    color: #8c8c8c;
+}
+.con-list .box p i{
+    color: #3e3e3e;
+    font-size: 13px;
+    line-height: 18px;
+}
+.con-list .box a {
+    display: block;
+    text-indent: 10px;
+    margin-top: 16px;
+    width: 163px;
+    height: 40px;
+    background: url(../images/con-btn.png);
+    font: 12px "[Helvetica]";
+    color: #11719e;
+    line-height: 40px;
+    margin-bottom: 34px;
+}
+/* contact */
+/*contact通用*/
+.contact{
+    padding-top: 34px;
+}
+.contact h3 {
+    font:  18px "Georgia";
+    color: #444;
+    line-height: 14px;
+    _border-bottom: 1px dashed  #d3d3d3;
+    _padding-bottom: 15px;
+}
+.contact h3::after {
+    content: '-------------------------------------------------------';
+    font: 12px "verdana";
+    display: block;
+    color: #d3d3d3;
+    height: 1px;
+    line-height: 1px;
+    padding-top: 10px;
+}
+.contact p{
+    font: 12px "[Helvetica]";
+    color: #444;
+    line-height: 13px;
+    margin-top: 15px;
+}
+.contact .box  a {
+    margin-top: 11px;
+    margin-bottom: 23px;
+    display: block;
+    text-indent: 10px;
+    width: 163px;
+    height: 32px;
+    font: 13px "Georgia";
+    color: #fff;
+    line-height: 32px;
+    background: url(../images/contact-btn.png);
+}
+/*第一列*/
+.contact li p{
+    padding-top: 13px;
+}
+.contact img{
+    margin-top: 7px;
+    margin-bottom: 24px;
+    _margin-bottom: 27px;
+}
+.contact h3 i{
+    font: bold 18px "[GillSansMT]";
+    line-height: 14px;
+}
+/*第二列*/
+.contact input[type="email"]{
+    margin-top: 17px;
+
+}
+/*第三列*/
+.contact dl dt img{
+    margin-top: 14px;
+    _margin-top: 16px;
+    margin-bottom: 9px;
+}
+.contact dl dd{
+    position: relative;
+    _border-bottom: 1px dashed #d3d3d3;
+}
+.contact dl dd p{
+    position: absolute;
+    top: -83px;
+    left: 64px;
+    width: 256px;
+    font: 12px "[Helvetica]";
+    color: #444;
+}
+.contact dd:after{
+    content: '-------------------------------------------------------';
+    font: 12px "verdana";
+    display: block;
+    color: #d3d3d3;
+    height: 1px;
+    line-height: 1px;
+}
+/*footer-rc*/
+.footer-rc-bg{
+    background: url(../images/footer-bg.png) repeat-x;
+    height: 184px;
+    padding-top: 28px;
+}
+.footer-rc p{
+    font: 11px "[Helvetica]";
+    color: #999;
+}
+.footer-rc span{
+    margin: 0 4px;
+    line-height: 17px;
+}
