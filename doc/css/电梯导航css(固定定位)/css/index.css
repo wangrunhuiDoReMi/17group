@@ -1,0 +1,64 @@
+/*电梯导航栏*/
+.elevator{
+    position: fixed;
+    top: 400px;
+    right: 50px;
+    height: 400px;
+}
+.elevator-list li{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.elevator-list li:last-child i{
+    font-size: 100px;
+    line-height: 150px;
+}
+
+/*文字弹出框*/
+li:first-child>div{
+    margin-top: -20px;
+}
+/*二维码弹出框*/
+li>div{
+    margin-top: -60px;
+}
+/*二倍图*/
+li>div img{
+    width: 100px;
+}
+
+/*鼠标移入显示*/
+.elevator-list li:hover{
+    background-color: lightcoral;
+}
+.elevator-list li:hover>div{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

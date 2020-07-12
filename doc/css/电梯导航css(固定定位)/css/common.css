@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*图标字体*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../font/icomoon.eot?7kkyc2');
+    src:  url('../font/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../font/icomoon.woff?7kkyc2') format('woff'),
+    url('../font/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icomoon {
+    font-family: 'icomoon';
+    font-size: 50px;
+    line-height: 100px;
+}
+/*弹出框*/
+li>div{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 110px;
+    padding: 10px;
+    background-color: lightsalmon;
+}
+/*小三角*/
+.trangle{
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: lightsalmon;
+}
