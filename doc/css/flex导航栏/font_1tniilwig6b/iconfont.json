@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3380837",
+      "name": "3.1旺旺-选中",
+      "font_class": "31wangwangxuanzhong",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    }
+  ]
+}
